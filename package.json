@@ -1,0 +1,19 @@
+{
+  "name": "local-code-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midahai/local-code-manager.git"
+  },
+  "author": "michuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/midahai/local-code-manager/issues"
+  },
+  "homepage": "https://github.com/midahai/local-code-manager#readme"
+}
