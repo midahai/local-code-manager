@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "cm": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/midahai/local-code-manager/issues"
   },
-  "homepage": "https://github.com/midahai/local-code-manager#readme"
+  "homepage": "https://github.com/midahai/local-code-manager#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "figlet": "^1.2.4",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^7.0.1",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "ramda": "^0.26.1",
+    "simple-git": "^1.129.0"
+  }
 }
